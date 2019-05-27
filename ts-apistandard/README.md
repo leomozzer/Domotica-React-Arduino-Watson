@@ -6,4 +6,4 @@
 
 ##local
     visitar => localhost:3000
-    para ligar/desligar o led usar localhost:3000/led?turn=on/off
+    para ligar/desligar o led usar localhost:3500/led?turn=on/off
