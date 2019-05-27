@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+.conteudo{
+  margin-top: 2%;
+}
+.App-link {
+  color: #61dafb;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif
+}
+.header{
+  grid-area: header;
+  background: #4b5572;
+  text-align: center;
+  color: aliceblue;
+}
+.home{
+  grid-area: home;
+  bottom: fixed;
+  left: 30%;
+  position: absolute;
+  width: 40%;
+}
+.chatbot{
+  grid-area: chatbot;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+.footer{
+  grid-area: footer;
+  text-align:  center;
+  background: #dddddd;
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+.conteudo{
+  display: grid;
+  grid-template-areas: 
+    'header header header'
+    'home home home'
+    'footer footer footer'
+}
