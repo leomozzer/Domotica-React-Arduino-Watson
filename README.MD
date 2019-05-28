@@ -4,10 +4,10 @@
 <h4>ts-apistandart</h4>
 npm i //instala as depedências<br/>
 npm run compile<br/>
-npm start<br/>
+npm start
 <h4>chat-bot</h4>
 npm i<br/>
-npm start<br/>
+npm start
 <h4>functions</h4>
 firebase init //cria o arquivo .firebaserc. Este arquivo direciona o deploy para o seu projeto no Firebase;<br/>
 //Selecionar a opção "functions"<br/>
@@ -17,7 +17,6 @@ firebase deploy<br/>
 <h3>Tutoriais</h3>
 <b>Desenvolvendo Chatbots com Watson Conversation<b/><br/>
 https://www.ibm.com/developerworks/br/library/desenvolvendo-chatbots-com-watson-conversation/index.html<br/>
-
 <b>Cloud Functions Firebase</b></br>
 https://firebase.google.com/docs/functions/get-started</br>
 https://firebase.google.com/docs/functions</br>
