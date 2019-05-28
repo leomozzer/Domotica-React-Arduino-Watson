@@ -1,6 +1,6 @@
 <h1>Domótica Utilizando Chatbot</h1>
 
-<h3>Pastas</h3>
+#Pastas
 <h4>ts-apistandart</h4>
 npm i //instala as depedências<br/>
 npm run compile<br/>
