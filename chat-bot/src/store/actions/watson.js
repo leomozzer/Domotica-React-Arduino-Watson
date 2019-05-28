@@ -1,4 +1,5 @@
 import axios from 'axios'
+import {URL} from '../../components/credentials/arduino_url'
 import { enviaMensagem } from './chat' //inporta a função enviaMensagem
 export const conversaWatsonRequest = ()=>{
     return{
@@ -41,72 +42,72 @@ export const conversaWatson = ((mensagem, contexto) =>{
                     if(data.data.entities.length > 2){
                         for(var i = 0; i < data.data.entities.length; i++){
                             if(data.data.entities[i].value === "banheiro"){
-                                fetch("http://localhost:3500/banheiro?turn=on", {mode : 'no-cors'})
+                                fetch(`${URL}/banheiro?turn=on`, {mode : 'no-cors'})
                             }
                             if(data.data.entities[i].value === "quarto"){
-                                fetch("http://localhost:3500/quarto?turn=on", {mode : 'no-cors'})
+                                fetch(`${URL}/quarto?turn=on`, {mode : 'no-cors'})
                             }
                             if(data.data.entities[i].value === "garagem"){
-                                fetch("http://localhost:3500/garagem?turn=on", {mode : 'no-cors'})
+                                fetch(`${URL}/garagem?turn=on`, {mode : 'no-cors'})
                             }
                             if(data.data.entities[i].value === "sala"){
-                                fetch("http://localhost:3500/sala?turn=on", {mode : 'no-cors'})
+                                fetch(`${URL}/sala?turn=on`, {mode : 'no-cors'})
                             }
                             if(data.data.entities[i].value === "cozinha"){
-                                fetch("http://localhost:3500/cozinha?turn=on", {mode : 'no-cors'})
+                                fetch(`${URL}/cozinha?turn=on`, {mode : 'no-cors'})
                             }
                         }
                     }
                     if((data.data.entities[0].value === "luzes" && data.data.entities[1].value === "banheiro") || (data.data.entities[1].value === "luzes" && data.data.entities[0].value === "banheiro")){
-                        fetch("http://localhost:3500/banheiro?turn=on", {mode : 'no-cors'});//função de busca na url do arduino-server
+                        fetch(`${URL}/banheiro?turn=on`, {mode : 'no-cors'});//função de busca na url do arduino-server
                     }
                     if((data.data.entities[0].value === "luzes" && data.data.entities[1].value === "quarto") || (data.data.entities[1].value === "luzes" && data.data.entities[0].value === "quarto")){
-                        fetch("http://localhost:3500/quarto?turn=on", {mode : 'no-cors'});
+                        fetch(`${URL}/quarto?turn=on`, {mode : 'no-cors'});
                     }
                     if((data.data.entities[0].value === "luzes" && data.data.entities[1].value === "garagem") || (data.data.entities[1].value === "luzes" && data.data.entities[0].value === "garagem")){
-                        fetch("http://localhost:3500/garagem?turn=on", {mode : 'no-cors'});
+                        fetch(`${URL}/garagem?turn=on`, {mode : 'no-cors'});
                     }
                     if((data.data.entities[0].value === "luzes" && data.data.entities[1].value === "sala") || (data.data.entities[1].value === "luzes" && data.data.entities[0].value === "sala")){
-                        fetch("http://localhost:3500/sala?turn=on", {mode : 'no-cors'});
+                        fetch(`${URL}/sala?turn=on`, {mode : 'no-cors'});
                     }
                     if((data.data.entities[0].value === "luzes" && data.data.entities[1].value === "cozinha") || (data.data.entities[1].value === "luzes" && data.data.entities[0].value === "cozinha")){
-                        fetch("http://localhost:3500/cozinha?turn=on", {mode : 'no-cors'});
+                        fetch(`${URL}/cozinha?turn=on`, {mode : 'no-cors'});
                     }
                 }
                 if(data.data.intents[0].intent === "desliga"){//verifica se a intenção desliga está presente
                     if(data.data.entities.length > 2){
                         for(var j = 0; j < data.data.entities.length; j++){
                             if(data.data.entities[j].value === "banheiro"){
-                                fetch("http://localhost:3500/banheiro?turn=off", {mode : 'no-cors'})
+                                fetch(`${URL}/banheiro?turn=off`, {mode : 'no-cors'})
                             }
                             if(data.data.entities[j].value === "quarto"){
-                                fetch("http://localhost:3500/quarto?turn=off", {mode : 'no-cors'})
+                                fetch(`${URL}/quarto?turn=off`, {mode : 'no-cors'})
                             }
                             if(data.data.entities[j].value === "garagem"){
-                                fetch("http://localhost:3500/garagem?turn=off", {mode : 'no-cors'})
+                                fetch(`${URL}/garagem?turn=off`, {mode : 'no-cors'})
                             }
                             if(data.data.entities[j].value === "sala"){
-                                fetch("http://localhost:3500/sala?turn=off", {mode : 'no-cors'})
+                                fetch(`${URL}/sala?turn=off`, {mode : 'no-cors'})
                             }
                             if(data.data.entities[j].value === "cozinha"){
-                                fetch("http://localhost:3500/cozinha?turn=off", {mode : 'no-cors'})
+                                fetch(`${URL}/cozinha?turn=off`, {mode : 'no-cors'})
                             }
                         }
                     }
                     if((data.data.entities[0].value === "luzes" && data.data.entities[1].value === "banheiro") || (data.data.entities[1].value === "luzes" && data.data.entities[0].value === "banheiro")){
-                        fetch("http://localhost:3500/banheiro?turn=off", {mode : 'no-cors'});//função de busca na url do arduino-server
+                        fetch(`${URL}/banheiro?turn=off`, {mode : 'no-cors'});//função de busca na url do arduino-server
                     }
                     if((data.data.entities[0].value === "luzes" && data.data.entities[1].value === "quarto") || (data.data.entities[1].value === "luzes" && data.data.entities[0].value === "quarto")){
-                        fetch("http://localhost:3500/quarto?turn=off", {mode : 'no-cors'});
+                        fetch(`${URL}/quarto?turn=off`, {mode : 'no-cors'});
                     }
                     if((data.data.entities[0].value === "luzes" && data.data.entities[1].value === "garagem") || (data.data.entities[1].value === "luzes" && data.data.entities[0].value === "garagem")){
-                        fetch("http://localhost:3500/garagem?turn=off", {mode : 'no-cors'});
+                        fetch(`${URL}/garagem?turn=off`, {mode : 'no-cors'});
                     }
                     if((data.data.entities[0].value === "luzes" && data.data.entities[1].value === "sala") || (data.data.entities[1].value === "luzes" && data.data.entities[0].value === "sala")){
-                        fetch("http://localhost:3500/sala?turn=off", {mode : 'no-cors'});
+                        fetch(`${URL}/sala?turn=off`, {mode : 'no-cors'});
                     }
                     if((data.data.entities[0].value === "luzes" && data.data.entities[1].value === "cozinha") || (data.data.entities[1].value === "luzes" && data.data.entities[0].value === "cozinha")){
-                        fetch("http://localhost:3500/cozinha?turn=off", {mode : 'no-cors'});
+                        fetch(`${URL}/cozinha?turn=off`, {mode : 'no-cors'});
                     }
                 }
             }

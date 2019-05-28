@@ -1,4 +1,4 @@
-import * as express from "express"
+﻿import * as express from "express"
 import * as bodyParser from "body-parser";
 import * as five from 'johnny-five'
 //import as três bibliotecas necessárias para construção do server
@@ -34,7 +34,7 @@ class App { //Definicao da classe App
   }
 
   Arduino() {
-    // this.board = new five.Board({port : "COM8"});
+    //this.board = new five.Board({port : "COM3"});
     this.board = new five.Board();
     //variável board recebe o valor de board que está dentro de five
     this.board.on("ready", function() {

@@ -35,7 +35,7 @@
     float: right;
     text-align: end;
     max-width: 400px;
-    font-family: fantasy;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 .bot{
     float: left;
@@ -46,7 +46,7 @@
     text-align: initial;
     float: left;
     max-width: 400px;
-    font-family: fantasy;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 .message-header{
     font-size: large;

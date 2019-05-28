@@ -21,7 +21,7 @@ class App {
         this.app.use(bodyParser.urlencoded({ extended: false }));
     }
     Arduino() {
-        // this.board = new five.Board({port : "COM8"});
+        //this.board = new five.Board({port : "COM3"});
         this.board = new five.Board();
         //variável board recebe o valor de board que está dentro de five
         this.board.on("ready", function () {
