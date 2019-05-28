@@ -20,7 +20,7 @@ https://www.ibm.com/developerworks/br/library/desenvolvendo-chatbots-com-watson-
 <b>Cloud Functions Firebase</b></br>
 https://firebase.google.com/docs/functions/get-started</br>
 https://firebase.google.com/docs/functions
-<b>Hello World (React)</b></br>
+<br/><b>Hello World (React)</b></br>
 https://reactjs.org/docs/hello-world.html<br/>
 
 <h3>Possíveis erros</h3>
