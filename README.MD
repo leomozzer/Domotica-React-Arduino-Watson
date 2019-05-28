@@ -5,7 +5,7 @@
 npm i //instala as depedências<br/>
 npm run compile<br/>
 npm start<br/>
-
+<br/>
 ##chat-bot<br/>
 npm i<br/>
 npm start<br/>
@@ -19,7 +19,7 @@ firebase deploy<br/>
 <h3>Tutoriais</h3>
 <b>Desenvolvendo Chatbots com Watson Conversation<b/><br/>
 https://www.ibm.com/developerworks/br/library/desenvolvendo-chatbots-com-watson-conversation/index.html<br/>
-
+<br/>
 <b>Cloud Functions Firebase</b></br>
 https://firebase.google.com/docs/functions/get-started</br>
 https://firebase.google.com/docs/functions</br>
