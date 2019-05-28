@@ -12,25 +12,25 @@ npm i
 <br/>
 npm start
 
-##Firebase
+##Firebase<br/>
 firebase init //cria o arquivo .firebaserc. Este arquivo direciona o deploy para o seu projeto no Firebase;
 <br/>
 //Selecionar a opção "functions"
 //Escolher o projeto do firebase
 cd functions
 firebase deploy
-##Tutoriais
-Desenvolvendo Chatbots com Watson Conversation
+<h3>Tutoriais</h3>
+<b>Desenvolvendo Chatbots com Watson Conversation<b/><br/>
 https://www.ibm.com/developerworks/br/library/desenvolvendo-chatbots-com-watson-conversation/index.html
 
-Cloud Functions Firebase
-https://firebase.google.com/docs/functions/get-started
-https://firebase.google.com/docs/functions
+<b>Cloud Functions Firebase</b></br>
+https://firebase.google.com/docs/functions/get-started</br>
+https://firebase.google.com/docs/functions</br>
 
-Hello World (React)
+<b>Hello World (React)</b></br>
 https://reactjs.org/docs/hello-world.html
 
-##Possíveis erros
+<h3>Possíveis erros</h3>
 Cannot find module 'serialport'
 rodar o comando npm install serialport
 https://stackoverflow.com/questions/28419702/cannot-find-module-serialport-using-node-js-and-johnny-five
