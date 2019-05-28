@@ -17,7 +17,6 @@ class ChatConversa extends Component{
     componentDidUpdate(){
         this.scrollToBottom();
     }
-
     renderMensagem(msg, k){
         return(
             <div key={k}>

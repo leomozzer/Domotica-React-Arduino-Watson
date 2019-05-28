@@ -5,7 +5,7 @@
     width: 50%;
     margin-left: 25%;
     border-radius: 10px;
-    background-color: rgb(164, 210, 236);
+    background-color: rgb(216, 229, 231)
 }
 .chat-header{
     text-align: center;
@@ -28,24 +28,22 @@
     width: 100%; 
 }
 .user{
-    max-width: 350px;
-    margin-left: 325px;
+    margin-left: 60%;
 }
 .user-message{
     float: right;
     text-align: end;
-    max-width: 400px;
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 .bot{
     float: left;
-    width: 600px;
-    margin-left: 10px;
+    width: 100%;
+    margin-left: 1%;
 }
 .bot-message{
     text-align: initial;
     float: left;
-    max-width: 400px;
+    max-width: 500px;
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 .message-header{
