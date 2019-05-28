@@ -19,8 +19,7 @@ firebase deploy<br/>
 https://www.ibm.com/developerworks/br/library/desenvolvendo-chatbots-com-watson-conversation/index.html<br/>
 <b>Cloud Functions Firebase</b></br>
 https://firebase.google.com/docs/functions/get-started</br>
-https://firebase.google.com/docs/functions</br>
-</br>
+https://firebase.google.com/docs/functions
 <b>Hello World (React)</b></br>
 https://reactjs.org/docs/hello-world.html<br/>
 
