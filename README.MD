@@ -1,12 +1,12 @@
 <h1>Domótica Utilizando Chatbot</h1>
 
-#Pastas
+<h3>Pastas</h3>
 <h4>ts-apistandart</h4>
 npm i //instala as depedências<br/>
-npm run compile<br/>
+npm run compile
 npm start
 <h4>chat-bot</h4>
-npm i<br/>
+npm i
 npm start
 <h4>functions</h4>
 firebase init //cria o arquivo .firebaserc. Este arquivo direciona o deploy para o seu projeto no Firebase;<br/>
