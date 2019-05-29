@@ -22,7 +22,7 @@ https://firebase.google.com/docs/functions/get-started</br>
 https://firebase.google.com/docs/functions
 <br/><b>Hello World (React)</b></br>
 https://reactjs.org/docs/hello-world.html
-<br/><b>Johnny-Five</b>
+<br/><b>Johnny-Five</b><br/>
 http://johnny-five.io/examples/
 
 <h3>Possíveis erros</h3>
