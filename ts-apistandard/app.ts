@@ -34,7 +34,7 @@ class App { //Definicao da classe App
   }
 
   Arduino() {
-    //this.board = new five.Board({port : "COM3"});
+    //this.board = new five.Board({port : "COM5"});
     this.board = new five.Board();
     //variável board recebe o valor de board que está dentro de five
     this.board.on("ready", function() {

@@ -5,7 +5,7 @@
     width: 50%;
     margin-left: 25%;
     border-radius: 10px;
-    background-color: rgb(216, 229, 231)
+    background-color: rgb(236, 244, 245)
 }
 .chat-header{
     text-align: center;
@@ -33,7 +33,6 @@
 .user-message{
     float: right;
     text-align: end;
-    font-family: Georgia, 'Times New Roman', Times, serif
 }
 .bot{
     float: left;
@@ -44,11 +43,14 @@
     text-align: initial;
     float: left;
     max-width: 500px;
+}
+.message{
+    color: black;
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 .message-header{
     font-size: large;
     font-weight: bold;
-    color: black;
     font-family: Times, "Times New Roman", Georgia, serif;
+    color: black;
 }

@@ -23,14 +23,14 @@ class ChatConversa extends Component{
                 <div className='user'>
                     {
                         msg.origem === 'user' && <span className='user-message'>
-                            <Alert color='info'><span className='message-header'>Usuário</span><br/>{msg.texto}</Alert>
+                            <Alert color='info'><span className='message-header'>Usuário</span><br/><text className='message'>{msg.texto}</text></Alert>
                         </span>
                     }
                 </div>
                 <div className='bot'>
                     {
                         msg.origem === 'bot' && <span className='bot-message'>
-                            <Alert color='light'><span className='message-header'>HomeBot</span><br/>{msg.texto}</Alert>
+                            <Alert color='light'><span className='message-header'>HomeBot</span><br/><text className='message'>{msg.texto}</text></Alert>
                         </span>
                     }
                 </div>
